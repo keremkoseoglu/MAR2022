@@ -1,0 +1,26 @@
+{"_id":"1FTWj1n7PoyXki4q","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"2PmKzT026zWd2WfY","name":"","sourceId":"WSZEkKq6euTBdiAm","targetId":"qd3kAWbQYZpM5eqk","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"7gAoIS03Ak5WQ2XQ","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_BW","kind":"Class","position":{"x":479.21875,"y":366.359375},"discriminator":"Class"}
+{"_id":"9LzBdaxV9SFzJqFX","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_HR","kind":"Class","position":{"x":694.5,"y":127},"discriminator":"Class"}
+{"_id":"GYc1ZwWFXuQFcXkY","name":"","sourceId":"XnDxUBaQSQ9DkMS2","targetId":"e6pNr5IkSsxc8h3D","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"J5zWnxVuPZHKyTSx","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"PpP10PRbiyIf6ssa","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"TH38tRlPxeMDg73Q","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_EWM","kind":"Class","position":{"x":224.609375,"y":508.71875},"discriminator":"Class"}
+{"_id":"WSZEkKq6euTBdiAm","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_JSON_SISTEM","kind":"Class","position":{"x":404.234375,"y":508.71875},"discriminator":"Class"}
+{"_id":"X4X7sGjpEzV7tXsM","name":"","sourceId":"YWDgVW1uqy0KQMIt","targetId":"WSZEkKq6euTBdiAm","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"X71mKCp2TlOhxVXG","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"XnDxUBaQSQ9DkMS2","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_MII","kind":"Class","position":{"x":488.40625,"y":224},"discriminator":"Class"}
+{"_id":"YWDgVW1uqy0KQMIt","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZCL_APO","kind":"Class","position":{"x":224,"y":366.359375},"discriminator":"Class"}
+{"_id":"ad57l2XRU0OsMYim","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"dUarpdJ6fYy2GOgg","name":"","sourceId":"TH38tRlPxeMDg73Q","targetId":"WSZEkKq6euTBdiAm","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"e6pNr5IkSsxc8h3D","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZIF_BILDIRIM","kind":"Class","position":{"x":391.5,"y":30},"discriminator":"Class"}
+{"_id":"eUQPPuWDy6yFquXo","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"fOZqqpR2KaVsxCzv","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"fRIkoCoqA1tHAFFq","name":"string","kind":"StandardType","visibility":"public"}
+{"_id":"hx71ydYfTs18n9KX","name":"","sourceId":"9LzBdaxV9SFzJqFX","targetId":"qd3kAWbQYZpM5eqk","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"i1s2QUuIbIiq12MJ","name":"","sourceId":"7gAoIS03Ak5WQ2XQ","targetId":"qd3kAWbQYZpM5eqk","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"my5GCht5DGtOaRCI","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"oQ3aMhLhs4O1FlsI","name":"","sourceId":"XnDxUBaQSQ9DkMS2","targetId":"qd3kAWbQYZpM5eqk","diagramId":"ysjKKaXf2HDnwSq2","visibility":"public","kind":"Relationship","relationshipKind":"Inheritance"}
+{"_id":"qd3kAWbQYZpM5eqk","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"ysjKKaXf2HDnwSq2","name":"ZIF_HEDEF_SISTEM","kind":"Class","position":{"x":655.765625,"y":366.359375},"discriminator":"Class"}
+{"_id":"vfBpCV6cFCfnygMf","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"ysjKKaXf2HDnwSq2","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
