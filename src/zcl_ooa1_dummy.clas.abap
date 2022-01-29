@@ -1,0 +1,15 @@
+CLASS zcl_ooa1_dummy DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    " types dummy type char1.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_ooa1_dummy IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,19 @@
+CLASS zcl_ooa1_hello DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS get_text RETURNING VALUE(result) TYPE string.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_ooa1_hello IMPLEMENTATION.
+  METHOD get_text.
+    result = 'hello world'.
+  ENDMETHOD.
+ENDCLASS.
