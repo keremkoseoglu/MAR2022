@@ -1,0 +1,22 @@
+{"_id":"2OjKortqjs9WZtyi","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"8rkByeXoquVvVMqB","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"I9fZPxd97nhLjisG","name":"ZCL_OBSERVER2","kind":"Class","position":{"x":906.5,"y":715},"discriminator":"Class","stereotypes":[]}
+{"_id":"E9q0I8alvvSrLWoD","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"Fb93Q5PSogyKk5xS","name":"","sourceId":"qp1QslSiS97rfNgO","targetId":"ohERo415ojqTBCnV","diagramId":"I9fZPxd97nhLjisG","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"I9fZPxd97nhLjisG","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"LdtNRBK9HkrUg3aX","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"P6XQZhf1QWsdyHcW","name":"uses","sourceId":"vOUoFue5wPLGgEes","targetId":"ohERo415ojqTBCnV","diagramId":"I9fZPxd97nhLjisG","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"Purv1hfGvxZgcj36","name":"string","kind":"StandardType","visibility":"public"}
+{"_id":"S9Hkh6KBE19QjLIA","name":"+ set_val","isAbstract":false,"type":"LdtNRBK9HkrUg3aX","visibility":"public","isStatic":false,"classifierId":"VhyddtcbqdQygvp3","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"T545a80tND1782v6","name":"","sourceId":"8rkByeXoquVvVMqB","targetId":"ohERo415ojqTBCnV","diagramId":"I9fZPxd97nhLjisG","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"TKndvheAGgb1YzH6","name":"has","sourceId":"ohERo415ojqTBCnV","targetId":"VhyddtcbqdQygvp3","diagramId":"I9fZPxd97nhLjisG","visibility":"public","kind":"Relationship","relationshipKind":"Aggregation"}
+{"_id":"TyqLyal7Qq7VJLXU","name":"+ get_val","isAbstract":false,"type":"LdtNRBK9HkrUg3aX","visibility":"public","isStatic":false,"classifierId":"VhyddtcbqdQygvp3","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"VhyddtcbqdQygvp3","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"I9fZPxd97nhLjisG","name":"ZCL_CONTAINER","kind":"Class","position":{"x":468.5,"y":532},"discriminator":"Class","stereotypes":[]}
+{"_id":"cmKx9qkCS13gg1iK","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"dA98jT5cTJcr2szH","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"kykinsOkxhSjj9if","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"ohERo415ojqTBCnV","isAbstract":false,"isFinal":false,"isInterface":true,"visibility":"public","diagramId":"I9fZPxd97nhLjisG","name":"ZIF_OBSERVER","kind":"Class","position":{"x":765.5,"y":557},"discriminator":"Class","stereotypes":[]}
+{"_id":"qp1QslSiS97rfNgO","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"I9fZPxd97nhLjisG","name":"ZCL_OBSERVER1","kind":"Class","position":{"x":618.5,"y":715},"discriminator":"Class","stereotypes":[]}
+{"_id":"rbtYXDstqmorkqrM","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"s9GRtsBS1hWmTRDI","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"vOUoFue5wPLGgEes","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"I9fZPxd97nhLjisG","name":"ZCL_MODEL","kind":"Class","position":{"x":782.5,"y":286},"discriminator":"Class","stereotypes":[]}
+{"_id":"yphnAi5v5hetR7Q7","name":"double","kind":"StandardType","visibility":"public"}

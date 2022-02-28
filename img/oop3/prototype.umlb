@@ -1,0 +1,20 @@
+{"_id":"38cyj2LYu3tSR2Ad","name":"+ dy_stok","isAbstract":false,"type":"vx0MpI8DgH3qgwVp","isReadOnly":false,"visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Property","kind":"Property","index":3}
+{"_id":"5KjjsQzQ8hR99FEj","name":"+ uy_stok","isAbstract":false,"type":"vx0MpI8DgH3qgwVp","isReadOnly":false,"visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Property","kind":"Property","index":2}
+{"_id":"5QwTNZBRDjKryfNG","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"BF8GARrswqMaV7zB","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"DvA985ey0DKKEpPE","name":"ZCL_MALZ_DP_UY","kind":"StandardType","visibility":"public"}
+{"_id":"IPqvtkVwadwrOLek","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"JhwTUmaTKeZv92e2","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"Qqr6PC7U8DdcM4YO","name":"ZCL_MALZ_UY_DY","kind":"Class","position":{"x":335.5,"y":325},"discriminator":"Class","stereotypes":[]}
+{"_id":"PclEFlg6zX8pChs6","name":"+ matnr","isAbstract":false,"type":"vx0MpI8DgH3qgwVp","isReadOnly":false,"visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Property","kind":"Property","index":0}
+{"_id":"PtkCV80dkMwfUiyo","name":"+ clone","isAbstract":false,"type":"DvA985ey0DKKEpPE","visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"Qqr6PC7U8DdcM4YO","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"RssKomQ01X4vnUdj","name":"+ maktx","isAbstract":false,"type":"vx0MpI8DgH3qgwVp","isReadOnly":false,"visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Property","kind":"Property","index":1}
+{"_id":"X83JfrJ9tGiocZz6","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"Xuso4qrcDneE8Hn9","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"cNNFVRE1cfYyxgNK","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"ewYX70vQRPqmCr9C","name":"+ dy_stok_hesapla","isAbstract":false,"type":"Xuso4qrcDneE8Hn9","visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Method","kind":"Method","index":2,"parameters":[]}
+{"_id":"gr1NiFBa8zoaFIJv","name":"+ uy_stok_hesapla","isAbstract":false,"type":"Xuso4qrcDneE8Hn9","visibility":"public","isStatic":false,"classifierId":"JhwTUmaTKeZv92e2","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"ipn4qsbIrQS0XsKR","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"kduLMckThlVDsdrJ","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"lQeOIa9VERoTbODi","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"vx0MpI8DgH3qgwVp","name":"string","kind":"StandardType","visibility":"public"}

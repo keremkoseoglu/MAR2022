@@ -1,0 +1,47 @@
+{"_id":"1T5QtnM46ECuJqwT","name":"","sourceId":"mcLpcazrWyzAzpmv","targetId":"CGEn410i7ejDytRn","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"1gezW5Ld0x2O5zZs","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"2v7VHVJuUw9gkTGi","name":"","sourceId":"wgAgmCe3LFpRxOQH","targetId":"CGEn410i7ejDytRn","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"2vBl1Hx2UTqiixjK","name":"string","kind":"StandardType","visibility":"public"}
+{"_id":"3O33qso6zA5idzvd","name":"+ sokak_al","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"zfEJpF9Si6WfkLWQ","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"BLiy9ko9Z8xBZPpy","name":"+ acik_belge_var_mi","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"CGEn410i7ejDytRn","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"BQo8SgNbMAmcwh0h","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZSMARTFORM","kind":"Class","position":{"x":212,"y":426.5390625},"discriminator":"Class","stereotypes":[]}
+{"_id":"CGEn410i7ejDytRn","isAbstract":false,"isFinal":false,"isInterface":true,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZIF_BLOKAJ","kind":"Class","position":{"x":1079.859375,"y":225.6484375},"discriminator":"Class","stereotypes":[]}
+{"_id":"DIpPf8RvqtFgztVo","name":"+ telefon_al","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"zfEJpF9Si6WfkLWQ","discriminator":"Method","kind":"Method","index":3,"parameters":[]}
+{"_id":"DgKktXEHscRfd5S4","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_USER","kind":"Class","position":{"x":889.578125,"y":854.140625},"discriminator":"Class","stereotypes":[]}
+{"_id":"DzdNEkMIEVyAsqhf","name":"","sourceId":"wgAgmCe3LFpRxOQH","targetId":"zfEJpF9Si6WfkLWQ","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"HHTR9zu8zUVDqj9c","name":"+ bloke_et","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"CGEn410i7ejDytRn","discriminator":"Method","kind":"Method","index":2,"parameters":[]}
+{"_id":"HrYu7fZcJDFkBbBo","name":"+ isten_cikar","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"yKpxC5xM4tV5eX8O","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"IAaFa3SUPG4DvdZ2","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_GUVENLI_BLOKAJ_SERVANT","kind":"Class","position":{"x":423.375,"y":212},"discriminator":"Class","stereotypes":[]}
+{"_id":"INYu0eoQnCCgT87J","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"JHtLzbSadD7ZyT5g","name":"+ uzun_adres","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"cZMRWzbx4SVud4QK","discriminator":"Method","kind":"Method","index":2,"parameters":[]}
+{"_id":"O8Dk0IXAZmlaHZh2","name":"uses","sourceId":"erUSU0OpvMrf5jzJ","targetId":"IAaFa3SUPG4DvdZ2","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"OsOS4QrAnacvGgXz","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"UR9wbF2tvLh1Ko9R","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"VuFjPh5TSq8gCH3u","name":"uses","sourceId":"BQo8SgNbMAmcwh0h","targetId":"wgAgmCe3LFpRxOQH","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"ZvsRLEsT3qFqN45f","name":"+ bakiye_var_mi","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"CGEn410i7ejDytRn","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"b1FyUYxD1SROWU3p","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZP_ISTEN_CIKAR","kind":"Class","position":{"x":525.625,"y":738.875},"discriminator":"Class","stereotypes":[]}
+{"_id":"b5vgdub02lgPefY5","name":"+ sehir_al","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"zfEJpF9Si6WfkLWQ","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"c2xFEqGlA5d8DuAv","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"c4EZYemteowvRGDd","name":"","sourceId":"mcLpcazrWyzAzpmv","targetId":"zfEJpF9Si6WfkLWQ","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"cJ9QmDymvFEmA8lO","name":"+ orta_adres","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"cZMRWzbx4SVud4QK","discriminator":"Method","kind":"Method","index":1,"parameters":[]}
+{"_id":"cZMRWzbx4SVud4QK","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_ADRES_FORMAT_SERVANT","kind":"Class","position":{"x":423.09375,"y":498.71875},"discriminator":"Class","stereotypes":[]}
+{"_id":"eKD8YmdD16oWiLMJ","name":"","sourceId":"yKpxC5xM4tV5eX8O","targetId":"zfEJpF9Si6WfkLWQ","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"erUSU0OpvMrf5jzJ","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZP_BLOKAJ","kind":"Class","position":{"x":222.71875,"y":212},"discriminator":"Class","stereotypes":[]}
+{"_id":"hVNinL1j7sXx7UkD","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"j5ZEilLPvnPhM5wc","name":"has","sourceId":"IAaFa3SUPG4DvdZ2","targetId":"CGEn410i7ejDytRn","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Aggregation"}
+{"_id":"lHgyrEHu7UOVHg2n","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"ldgUHpcvLVLwXXcc","name":"+ ise_giris_tarihi","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"yKpxC5xM4tV5eX8O","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"lmLRAj8XBWnOGjAm","name":"uses","sourceId":"BQo8SgNbMAmcwh0h","targetId":"cZMRWzbx4SVud4QK","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"mcLpcazrWyzAzpmv","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_SATICI","kind":"Class","position":{"x":884.453125,"y":284.1796875},"discriminator":"Class","stereotypes":[]}
+{"_id":"oYw6Wq9EAGnySiwk","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"oxrinRpQH8ULlYiW","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"pFDtjJVPSKqe9Cdf","name":"+ ulke_al","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"zfEJpF9Si6WfkLWQ","discriminator":"Method","kind":"Method","index":2,"parameters":[]}
+{"_id":"pLRTfkScUgQACU8w","name":"+ email_al","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"zfEJpF9Si6WfkLWQ","discriminator":"Method","kind":"Method","index":4,"parameters":[]}
+{"_id":"pXRr91pLatYT69yY","name":"+ kisa_adres","isAbstract":false,"type":"lHgyrEHu7UOVHg2n","visibility":"public","isStatic":false,"classifierId":"cZMRWzbx4SVud4QK","discriminator":"Method","kind":"Method","index":0,"parameters":[]}
+{"_id":"pcDPBpmSegF5wkVK","name":"has","sourceId":"cZMRWzbx4SVud4QK","targetId":"zfEJpF9Si6WfkLWQ","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Aggregation"}
+{"_id":"sfyLjspdhmg2cp26","name":"","sourceId":"DgKktXEHscRfd5S4","targetId":"zfEJpF9Si6WfkLWQ","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Implementation"}
+{"_id":"uBpvK7PwkCbZg5Dh","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"v79XMPIlbY6xGMI6","name":"uses","sourceId":"b1FyUYxD1SROWU3p","targetId":"yKpxC5xM4tV5eX8O","diagramId":"c2xFEqGlA5d8DuAv","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"wgAgmCe3LFpRxOQH","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_MUSTERI","kind":"Class","position":{"x":834.3671875,"y":426.5390625},"discriminator":"Class","stereotypes":[]}
+{"_id":"yKpxC5xM4tV5eX8O","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZCL_PERSONEL","kind":"Class","position":{"x":799.6875,"y":647.78125},"discriminator":"Class","stereotypes":[]}
+{"_id":"zfEJpF9Si6WfkLWQ","isAbstract":false,"isFinal":false,"isInterface":true,"visibility":"public","diagramId":"c2xFEqGlA5d8DuAv","name":"ZIF_ADRES_KAYNAGI","kind":"Class","position":{"x":1079.859375,"y":485.0703125},"discriminator":"Class","stereotypes":[]}
