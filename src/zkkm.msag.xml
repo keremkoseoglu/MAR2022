@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZKKM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Örnek iletiler</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Veri gönderilmemiş</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;1 malzemesi tanımlı değil</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nesne şu anda kilitli, kayıt atılamıyor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Kayıt atma yetkiniz yok</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp;1 tablosu bomboş, doldurun</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp;1 tablosunda bu sene için giriş yok, doldurun</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Veri kontrolleri başarısız</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZKKM</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Güvenli kayıt hatası oldu</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
