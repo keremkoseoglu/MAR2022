@@ -1,0 +1,12 @@
+@EndUserText.label: 'Access control'
+@MappingRole: true
+define role ZI_CDS_BOOKING_YETKI_AC {
+  //grant select on ZI_CDS_BOOKING_YETKI;
+  //grant select on ZI_CDS_BOOKING_YETKI where custtype = 'B';
+  grant select on zi_cds_booking_yetki
+  where (custtype) = aspect pfcg_auth(ZKK_CTYPE, ZKK_CTYPE, actvt='03');
+  // authority-check object zkk_ctype 
+  // id zkk_Ctype field zi_cds_booking_yetki-custtype
+  // id actvy     field '03'
+ 
+}
