@@ -1,0 +1,23 @@
+{"_id":"13MNN1kWLnP4T1MG","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"4oH1TGRsIpNyeRaV","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"ABAP Application Server 2","kind":"Class","position":{"x":242.5,"y":347},"discriminator":"Class","stereotypes":[]}
+{"_id":"4tPy7vXiWWnFukcc","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"7GsM0q83QVvMZMuT","name":"uses","sourceId":"4oH1TGRsIpNyeRaV","targetId":"op3saU1Ri3FoCe3A","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"ABf89NjmLO0nHsJK","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"SQL SERVER","kind":"Class","position":{"x":839.5,"y":149},"discriminator":"Class","stereotypes":[]}
+{"_id":"ERwJAR62tVI6Rz2o","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"G1UcBysfEhNHYLd0","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"HF8mYn7B8bkoI8nd","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"M8TVL5nGzVYB9ugd","name":"uses","sourceId":"pVivLNJJvAS2fPtg","targetId":"ABf89NjmLO0nHsJK","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"QIyZVK1eloXfNfzY","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"RnrnXTBfyYr5sj93","name":"owns","sourceId":"xO48zXRJM93Mr3Bf","targetId":"op3saU1Ri3FoCe3A","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"Y5fT7v51e08m5ukt","name":"uses","sourceId":"4oH1TGRsIpNyeRaV","targetId":"xO48zXRJM93Mr3Bf","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"YQk9cv0m31rnijaD","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"cNxB5gMnX1Txwula","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"eZ1nFVG7UuV8q1Uc","name":"owns","sourceId":"xO48zXRJM93Mr3Bf","targetId":"tQbYPpw70lVg8V0I","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"olruFHexXF3uXWha","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"op3saU1Ri3FoCe3A","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"CDS View","kind":"Class","position":{"x":739.5,"y":470},"discriminator":"Class","stereotypes":[]}
+{"_id":"pVivLNJJvAS2fPtg","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"ABAP Application Server","kind":"Class","position":{"x":252.5,"y":144},"discriminator":"Class","stereotypes":[]}
+{"_id":"seeTR1DEK1qpN1eP","name":"uses","sourceId":"4oH1TGRsIpNyeRaV","targetId":"tQbYPpw70lVg8V0I","diagramId":"4tPy7vXiWWnFukcc","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"tQbYPpw70lVg8V0I","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"AMDP","kind":"Class","position":{"x":751.5,"y":677},"discriminator":"Class","stereotypes":[]}
+{"_id":"xO48zXRJM93Mr3Bf","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"4tPy7vXiWWnFukcc","name":"Hana In-Memory","kind":"Class","position":{"x":836.5,"y":345},"discriminator":"Class","stereotypes":[]}
+{"_id":"yPdfmyJSKKLIPWtK","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"zfnn38EOeIWWxGHX","name":"string","kind":"StandardType","visibility":"public"}

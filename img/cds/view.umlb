@@ -1,0 +1,18 @@
+{"_id":"0vLlCv0iOBEqLsRu","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"2GEfHbgUFGnskTxs","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"CXLFf3YQKcfqws5L","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"K6WV2tjoQP9JU1Up","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"oZNFeSHKIx1x5sNX","name":"SE16N","kind":"Class","position":{"x":1036.5,"y":397},"discriminator":"Class","stereotypes":[]}
+{"_id":"LeH6gZi8ZETnERPD","name":"string","kind":"StandardType","visibility":"public"}
+{"_id":"Q2K0l9kgZarR5F0B","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"QuYt2m6n99Iwgzxc","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"SfsSjqbRevLzZfab","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"VCxhEH6gxUdBSSFS","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"oZNFeSHKIx1x5sNX","name":"ZCDS","kind":"Class","position":{"x":719.5,"y":222},"discriminator":"Class","stereotypes":[]}
+{"_id":"WP4mE0wEkCyNuejx","name":"uses","sourceId":"YdQRcnTzEjI2HJc1","targetId":"VCxhEH6gxUdBSSFS","diagramId":"oZNFeSHKIx1x5sNX","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"YdQRcnTzEjI2HJc1","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"oZNFeSHKIx1x5sNX","name":"ZVIEW","kind":"Class","position":{"x":720.5,"y":398},"discriminator":"Class","stereotypes":[]}
+{"_id":"ZnvLHYi9lXE70TdO","name":"uses","sourceId":"K6WV2tjoQP9JU1Up","targetId":"YdQRcnTzEjI2HJc1","diagramId":"oZNFeSHKIx1x5sNX","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"c4AV9PhAfHOF9fCh","name":"uses","sourceId":"dUW7GHBS2wV6R7BT","targetId":"YdQRcnTzEjI2HJc1","diagramId":"oZNFeSHKIx1x5sNX","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"dUW7GHBS2wV6R7BT","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"oZNFeSHKIx1x5sNX","name":"SE11","kind":"Class","position":{"x":1045.5,"y":484},"discriminator":"Class","stereotypes":[]}
+{"_id":"eLGaUJooShdFliY1","name":"char","kind":"StandardType","visibility":"public"}
+{"_id":"gmqao1kHeuCAx5V3","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"oZNFeSHKIx1x5sNX","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"sKmgX41cNltnGF2d","name":"void","kind":"StandardType","visibility":"public"}
