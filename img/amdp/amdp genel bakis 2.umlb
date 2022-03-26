@@ -1,0 +1,31 @@
+{"_id":"2YvRWh1csYFuc5UP","name":"void","kind":"StandardType","visibility":"public"}
+{"_id":"8cyAUT84OhuE8wmN","name":"date","kind":"StandardType","visibility":"public"}
+{"_id":"AItj23NDyZThyWgM","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"Eclipse (SE24) - AMDP","kind":"Class","position":{"x":707.5,"y":261},"discriminator":"Class","stereotypes":[]}
+{"_id":"D1NJiwthdgufYYMF","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"CDS View","kind":"Class","position":{"x":1057.5,"y":468},"discriminator":"Class","stereotypes":[]}
+{"_id":"DjzfZvjbrl69roSf","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"Table Function","kind":"Class","position":{"x":963.5,"y":265},"discriminator":"Class","stereotypes":[]}
+{"_id":"Eem1KY7di3Boz9N2","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"CDS VIEW","kind":"Class","position":{"x":276.5,"y":472},"discriminator":"Class","stereotypes":[]}
+{"_id":"F0g3y0LK70eOWGxL","name":"string","kind":"StandardType","visibility":"public"}
+{"_id":"IugIpqqsH3FH9A9b","name":"uses","sourceId":"AItj23NDyZThyWgM","targetId":"NWvoYiONIsBUH7gl","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"JG3w9YhHTwgS9S3i","name":"owns","sourceId":"NYhrXGEDcm5qWaGs","targetId":"Eem1KY7di3Boz9N2","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"KPTGuwe09QaFFOti","name":"owns","sourceId":"gJDAdJW1bMdDZbrY","targetId":"AItj23NDyZThyWgM","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"LQzZ3D4Is6hXj7OX","name":"float","kind":"StandardType","visibility":"public"}
+{"_id":"LUgF1du3CBAVqcyO","name":"int","kind":"StandardType","visibility":"public"}
+{"_id":"Lel85JicV31751Df","name":"uses","sourceId":"guWrg9pnAvAgX1oT","targetId":"DjzfZvjbrl69roSf","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"NWvoYiONIsBUH7gl","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"SqlScript Procedure","kind":"Class","position":{"x":721.5,"y":468},"discriminator":"Class","stereotypes":[]}
+{"_id":"NYhrXGEDcm5qWaGs","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"HANA DB","kind":"Class","position":{"x":490.5,"y":471},"discriminator":"Class","stereotypes":[]}
+{"_id":"RBI52pBUH9Bt7kEY","name":"any","kind":"StandardType","visibility":"public"}
+{"_id":"RGF0RCMtirj472Vr","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"ZREPORT","kind":"Class","position":{"x":751.5,"y":98},"discriminator":"Class","stereotypes":[]}
+{"_id":"TY9dp0w5MNkt7zjK","name":"time","kind":"StandardType","visibility":"public"}
+{"_id":"TjBiDX54bHnbtTe5","name":"uses","sourceId":"oTVtwST7X9nhxmus","targetId":"Eem1KY7di3Boz9N2","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"W0bYwe5ISL5y3RSr","name":"uses","sourceId":"NWvoYiONIsBUH7gl","targetId":"D1NJiwthdgufYYMF","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"XDnyQRpiyQ7CS8cV","name":"double","kind":"StandardType","visibility":"public"}
+{"_id":"bHSMRGOCN9JQu5dN","name":"owns","sourceId":"gJDAdJW1bMdDZbrY","targetId":"oTVtwST7X9nhxmus","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"cHJivwpC8Y0bX6D6","name":"new diagram","kind":"ClassDiagram","titlePosition":{"x":550,"y":24}}
+{"_id":"ceYDgcOkNenpTDnz","name":"boolean","kind":"StandardType","visibility":"public"}
+{"_id":"diJAKe2ohBnogwHF","name":"owns","sourceId":"NYhrXGEDcm5qWaGs","targetId":"NWvoYiONIsBUH7gl","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Composition"}
+{"_id":"gJDAdJW1bMdDZbrY","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"Z-ABAP","kind":"Class","position":{"x":505.5,"y":260},"discriminator":"Class","stereotypes":[]}
+{"_id":"guWrg9pnAvAgX1oT","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"ZCDS","kind":"Class","position":{"x":1184.5,"y":264},"discriminator":"Class","stereotypes":[]}
+{"_id":"iPqF25ULQs7kw9fb","name":"uses","sourceId":"RGF0RCMtirj472Vr","targetId":"AItj23NDyZThyWgM","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"oTVtwST7X9nhxmus","isAbstract":false,"isFinal":false,"isInterface":false,"visibility":"public","diagramId":"cHJivwpC8Y0bX6D6","name":"Eclipse - CDS View","kind":"Class","position":{"x":246.5,"y":259},"discriminator":"Class","stereotypes":[]}
+{"_id":"v9bjhIi9RAnxHor6","name":"uses","sourceId":"DjzfZvjbrl69roSf","targetId":"AItj23NDyZThyWgM","diagramId":"cHJivwpC8Y0bX6D6","visibility":"public","kind":"Relationship","relationshipKind":"Usage"}
+{"_id":"xrMOduei8idTQ1tt","name":"char","kind":"StandardType","visibility":"public"}
