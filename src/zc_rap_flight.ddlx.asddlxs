@@ -1,0 +1,82 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+  typeName: 'Flight',
+  typeNamePlural: 'Flights',
+  title: {
+    type: #STANDARD,
+    label: 'Flight',
+    value: 'fldate'
+  }
+},
+presentationVariant: [{
+  sortOrder: [{
+    by: 'fldate',
+    direction: #DESC
+  }]
+}]
+}
+annotate view ZC_RAP_FLIGHT with
+{
+  @UI.facet: [
+    {
+      id: 'Flight',
+      purpose: #STANDARD,
+      position: 10,
+      label: 'Flight',
+      type: #IDENTIFICATION_REFERENCE
+    },
+    {
+      id: 'Booking',
+      purpose: #STANDARD,
+      position: 20,
+      label: 'Booking',
+      type: #LINEITEM_REFERENCE,
+      targetElement: '_booking'
+    }
+    ]
+
+  @UI: { identification: [{ position: 1, label: 'Carrier' }] }
+  carrid;
+  @UI: { identification: [{ position: 2, label: 'Connection' }] }
+  connid;
+  @UI: { identification: [{ position: 3, label: 'Date' }] }
+  fldate;
+  @UI: { identification: [{ position: 4, label: 'Price' }] }
+  @UI: { lineItem      : [{ position: 10, criticality: 'price_criticality' }],
+         selectionField: [{ position: 10 }] }
+  price;
+  @UI: { lineItem      : [{ position: 20 }],
+         selectionField: [{ position: 20 }] }
+  planetype;
+  @UI: { lineItem      : [{ position: 30 }],
+         selectionField: [{ position: 30 }] }
+  seatsmax;
+  @UI: { lineItem      : [{ position: 40 }],
+         selectionField: [{ position: 40 }] }
+  seatsocc;
+  @UI: { lineItem      : [{ position: 50 }],
+         selectionField: [{ position: 50 }] }
+  paymentsum;
+  @UI: {
+    lineItem: [
+      { position: 60 },
+      { type: #FOR_ACTION,
+        dataAction: 'acceptFlight',
+        label: 'Accept flight'},
+      { type: #FOR_ACTION,
+        dataAction: 'rejectFlight',
+        label: 'Reject flight'}
+    ],
+    identification: [
+      { position: 60 },
+      { type: #FOR_ACTION,
+        dataAction: 'acceptFlight',
+        label: 'Accept flight'},
+      { type: #FOR_ACTION,
+        dataAction: 'rejectFlight',
+        label: 'Reject flight'}
+    ]
+  }
+  status;
+}

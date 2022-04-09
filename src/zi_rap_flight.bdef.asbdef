@@ -1,0 +1,67 @@
+managed;
+
+define behavior for ZI_RAP_FLIGHT alias Flight
+implementation in class zbp_i_rap_flight unique
+persistent table SFLIGHT
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  association _booking { create; }
+
+  field ( readonly ) seatsmax;
+  field ( mandatory ) currency;
+
+  action ( features: instance ) acceptFlight result [1] $self;
+  action ( features: instance ) rejectFlight result [1] $self;
+
+  determination setSeatsMax on save { create; }
+  validation validateCurrency on save { field currency; create; }
+
+  mapping for sflight {
+    carrid = carrid;
+    connid = connid;
+    fldate = fldate;
+    price = price;
+    currency = currency;
+    planetype = planetype;
+    seatsmax = seatsmax;
+    seatsocc = seatsocc;
+    paymentsum = paymentsum;
+    status = seatsmax_b;
+  }
+}
+
+define behavior for ZI_RAP_BOOKING alias Booking
+implementation in class zbp_i_rap_booking unique
+persistent table SBOOK
+lock dependent by _flight
+authorization dependent by _flight
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) carrid, connid, fldate;
+  association _flight;
+
+  determination setSmoker on modify { field customid; }
+
+  mapping for sbook {
+    carrid = carrid;
+    connid = connid;
+    fldate = fldate;
+    bookid = bookid;
+    customid = customid;
+    custtype = custtype;
+    smoker = smoker;
+    luggweight = luggweight;
+    wunit = wunit;
+    invoice = invoice;
+    class = class;
+    forcuram = forcuram;
+    forcurkey = forcurkey;
+  }
+}

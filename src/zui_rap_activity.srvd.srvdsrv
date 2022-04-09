@@ -1,0 +1,5 @@
+@EndUserText.label: 'Aktivite için UI servisi'
+define service ZUI_RAP_ACTIVITY {
+  expose ZC_RAP_ACTIVITY as Activity;
+  expose ZI_RAP_CARRIER as Project;
+}

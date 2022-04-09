@@ -1,0 +1,5 @@
+@EndUserText.label: 'Uçuş bilgileri için UI servisi'
+define service ZUI_RAP_FLIGHT {
+  expose ZC_RAP_FLIGHT as Flight;
+  expose ZC_RAP_BOOKING as Booking;
+}

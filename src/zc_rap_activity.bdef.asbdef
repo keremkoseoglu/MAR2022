@@ -1,0 +1,9 @@
+projection;
+use draft;
+
+define behavior for ZC_RAP_ACTIVITY alias Activity
+{
+  use create;
+  use update;
+  use delete;
+}

@@ -1,0 +1,5 @@
+CLASS zbp_i_rap_activity DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_rap_activity.
+ENDCLASS.
+
+CLASS zbp_i_rap_activity IMPLEMENTATION.
+ENDCLASS.

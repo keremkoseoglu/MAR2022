@@ -1,0 +1,20 @@
+projection;
+
+define behavior for ZC_RAP_FLIGHT alias Flight
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _booking { create; }
+  use action acceptFlight;
+  use action rejectFlight;
+}
+
+define behavior for ZC_RAP_BOOKING alias Booking
+{
+  use update;
+  use delete;
+
+  use association _flight;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Flight API'
+define service ZAPI_RAP_FLIGHT {
+  expose ZC_RAP_FLIGHT;
+}

@@ -1,0 +1,62 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+  typeName: 'Activity',
+  typeNamePlural: 'Activities',
+  title: {
+    type: #STANDARD,
+    label: 'Activity',
+    value: 'ActivityGuid'
+  }
+},
+presentationVariant: [{
+  sortOrder: [
+    { by: 'ActivityDate',
+      direction: #DESC },
+    { by: 'ActivityTime',
+      direction: #DESC }
+  ]
+}]
+}
+annotate view ZC_RAP_ACTIVITY with
+{
+  @UI.facet: [
+    {
+      id: 'Activity',
+      purpose: #STANDARD,
+      position: 10,
+      label: 'Activity',
+      type: #IDENTIFICATION_REFERENCE
+    }]
+
+  @UI: { identification: [{ position: 1, label: 'Activity ID' }] }
+  ActivityGuid;
+  @UI: { lineItem       : [{ position: 10 }],
+         identification : [{ position: 10 }],
+         selectionField : [{ position: 10 }] }
+  Consultant;
+  @UI: { lineItem       : [{ position: 20 }],
+         identification : [{ position: 20 }],
+         selectionField : [{ position: 20 }] }
+  Project;
+  @UI: { lineItem       : [{ position: 30 }],
+         identification : [{ position: 30 }],
+         selectionField : [{ position: 30 }] }
+  ActivityDate;
+  @UI: { lineItem       : [{ position: 40 }],
+         identification : [{ position: 40 }] }
+  ActivityTime;
+  @UI: { lineItem       : [{ position: 50 }],
+         identification : [{ position: 50 }] }
+  WorkDone;
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  LastChangedBy;
+  @UI.hidden: true
+  LastChangedAt;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}
